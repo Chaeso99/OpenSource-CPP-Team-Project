@@ -11,7 +11,7 @@ class Elf : public Monster
 	int m_Def;
 
 public:
-	Elf (int hp, int ark, int def) :m_Health(hp), m_Ark(ark), m_Def(def)
+	Elf (int hp= 0,  int ark= 0, int def= 0 ) :m_Health(hp), m_Ark(ark), m_Def(def)
 	{
 
 	}
