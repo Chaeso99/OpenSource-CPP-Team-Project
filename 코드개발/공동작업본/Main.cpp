@@ -59,7 +59,7 @@ int main(int argc, char const* argv[])
 		saveFileSingleton->writingFile(player);
 		saveFileSingleton->readingFile(player);
 		cout << "체력: " << player.getHealth() << ", 공격력: " << player.getArk() << ", 방어력: " << player.getDef() << endl;
-	}
+	} //플레이어의 초기 설정한 파라미터를 출력하고 파라미터를 새로 입력받아 saveData 파일에 저장, 이를 불러와 출력시킨다.
 
 }
 /*<결과창>
